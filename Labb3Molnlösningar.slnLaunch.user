@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Labb3Molnlösningar\\Labb3Molnlösningar.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "CrmFunctions\\CrmFunctions.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

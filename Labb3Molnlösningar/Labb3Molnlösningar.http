@@ -1,0 +1,6 @@
+@Labb3Molnlösningar_HostAddress = http://localhost:5264
+
+GET {{Labb3Molnlösningar_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

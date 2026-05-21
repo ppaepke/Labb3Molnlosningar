@@ -1,0 +1,8 @@
+C:\Users\pontu\source\repos\Labb3Molnlösningar\Labb3Molnlösningar\obj\Debug\net8.0\Labb3Molnlösningar.csproj.AssemblyReference.cache
+C:\Users\pontu\source\repos\Labb3Molnlösningar\Labb3Molnlösningar\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\pontu\source\repos\Labb3Molnlösningar\Labb3Molnlösningar\obj\Debug\net8.0\Labb3Molnlösningar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pontu\source\repos\Labb3Molnlösningar\Labb3Molnlösningar\obj\Debug\net8.0\Labb3Molnlösningar.AssemblyInfoInputs.cache
+C:\Users\pontu\source\repos\Labb3Molnlösningar\Labb3Molnlösningar\obj\Debug\net8.0\Labb3Molnlösningar.AssemblyInfo.cs
+C:\Users\pontu\source\repos\Labb3Molnlösningar\Labb3Molnlösningar\obj\Debug\net8.0\Labb3Molnlösningar.csproj.CoreCompileInputs.cache
+C:\Users\pontu\source\repos\Labb3Molnlösningar\Labb3Molnlösningar\obj\Debug\net8.0\Labb3Molnlösningar.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\pontu\source\repos\Labb3Molnlösningar\Labb3Molnlösningar\obj\Debug\net8.0\Labb3Molnlösningar.MvcApplicationPartsAssemblyInfo.cache

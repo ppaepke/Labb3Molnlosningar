@@ -1,0 +1,356 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{461DB88C-924B-4CAF-AFD5-BFA922C93A8A}|CrmFunctions\\CrmFunctions.csproj|c:\\users\\pontu\\source\\repos\\labb3molnl\u00F6sningar\\crmfunctions\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{461DB88C-924B-4CAF-AFD5-BFA922C93A8A}|CrmFunctions\\CrmFunctions.csproj|solutionrelative:crmfunctions\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E5976C8-6380-C1C2-D46E-293CACDA11E4}|Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj|c:\\users\\pontu\\source\\repos\\labb3molnl\u00F6sningar\\labb3molnl\u00F6sningar\\labb3molnl\u00F6sningar.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0E5976C8-6380-C1C2-D46E-293CACDA11E4}|Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj|solutionrelative:labb3molnl\u00F6sningar\\labb3molnl\u00F6sningar.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{461DB88C-924B-4CAF-AFD5-BFA922C93A8A}|CrmFunctions\\CrmFunctions.csproj|c:\\users\\pontu\\source\\repos\\labb3molnl\u00F6sningar\\crmfunctions\\crmfunctions.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{461DB88C-924B-4CAF-AFD5-BFA922C93A8A}|CrmFunctions\\CrmFunctions.csproj|solutionrelative:crmfunctions\\crmfunctions.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E5976C8-6380-C1C2-D46E-293CACDA11E4}|Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj|c:\\users\\pontu\\source\\repos\\labb3molnl\u00F6sningar\\labb3molnl\u00F6sningar\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0E5976C8-6380-C1C2-D46E-293CACDA11E4}|Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj|solutionrelative:labb3molnl\u00F6sningar\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E5976C8-6380-C1C2-D46E-293CACDA11E4}|Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj|c:\\users\\pontu\\source\\repos\\labb3molnl\u00F6sningar\\labb3molnl\u00F6sningar\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E5976C8-6380-C1C2-D46E-293CACDA11E4}|Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj|solutionrelative:labb3molnl\u00F6sningar\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E5976C8-6380-C1C2-D46E-293CACDA11E4}|Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj|c:\\users\\pontu\\source\\repos\\labb3molnl\u00F6sningar\\labb3molnl\u00F6sningar\\models\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E5976C8-6380-C1C2-D46E-293CACDA11E4}|Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj|solutionrelative:labb3molnl\u00F6sningar\\models\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E5976C8-6380-C1C2-D46E-293CACDA11E4}|Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj|c:\\users\\pontu\\source\\repos\\labb3molnl\u00F6sningar\\labb3molnl\u00F6sningar\\services\\cosmosdbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E5976C8-6380-C1C2-D46E-293CACDA11E4}|Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj|solutionrelative:labb3molnl\u00F6sningar\\services\\cosmosdbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E5976C8-6380-C1C2-D46E-293CACDA11E4}|Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj|c:\\users\\pontu\\source\\repos\\labb3molnl\u00F6sningar\\labb3molnl\u00F6sningar\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0E5976C8-6380-C1C2-D46E-293CACDA11E4}|Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj|solutionrelative:labb3molnl\u00F6sningar\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E5976C8-6380-C1C2-D46E-293CACDA11E4}|Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj|c:\\users\\pontu\\source\\repos\\labb3molnl\u00F6sningar\\labb3molnl\u00F6sningar\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0E5976C8-6380-C1C2-D46E-293CACDA11E4}|Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj|solutionrelative:labb3molnl\u00F6sningar\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E5976C8-6380-C1C2-D46E-293CACDA11E4}|Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj|c:\\users\\pontu\\source\\repos\\labb3molnl\u00F6sningar\\labb3molnl\u00F6sningar\\labb3molnl\u00F6sningar.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{0E5976C8-6380-C1C2-D46E-293CACDA11E4}|Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj|solutionrelative:labb3molnl\u00F6sningar\\labb3molnl\u00F6sningar.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E5976C8-6380-C1C2-D46E-293CACDA11E4}|Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj|c:\\users\\pontu\\source\\repos\\labb3molnl\u00F6sningar\\labb3molnl\u00F6sningar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E5976C8-6380-C1C2-D46E-293CACDA11E4}|Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj|solutionrelative:labb3molnl\u00F6sningar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{461DB88C-924B-4CAF-AFD5-BFA922C93A8A}|CrmFunctions\\CrmFunctions.csproj|c:\\users\\pontu\\source\\repos\\labb3molnl\u00F6sningar\\crmfunctions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{461DB88C-924B-4CAF-AFD5-BFA922C93A8A}|CrmFunctions\\CrmFunctions.csproj|solutionrelative:crmfunctions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E5976C8-6380-C1C2-D46E-293CACDA11E4}|Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj|c:\\users\\pontu\\source\\repos\\labb3molnl\u00F6sningar\\labb3molnl\u00F6sningar\\labb3molnl\u00F6sningar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0E5976C8-6380-C1C2-D46E-293CACDA11E4}|Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj|solutionrelative:labb3molnl\u00F6sningar\\labb3molnl\u00F6sningar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{461DB88C-924B-4CAF-AFD5-BFA922C93A8A}|CrmFunctions\\CrmFunctions.csproj|c:\\users\\pontu\\source\\repos\\labb3molnl\u00F6sningar\\crmfunctions\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{461DB88C-924B-4CAF-AFD5-BFA922C93A8A}|CrmFunctions\\CrmFunctions.csproj|solutionrelative:crmfunctions\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{461DB88C-924B-4CAF-AFD5-BFA922C93A8A}|CrmFunctions\\CrmFunctions.csproj|c:\\users\\pontu\\source\\repos\\labb3molnl\u00F6sningar\\crmfunctions\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{461DB88C-924B-4CAF-AFD5-BFA922C93A8A}|CrmFunctions\\CrmFunctions.csproj|solutionrelative:crmfunctions\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{461DB88C-924B-4CAF-AFD5-BFA922C93A8A}|CrmFunctions\\CrmFunctions.csproj|c:\\users\\pontu\\source\\repos\\labb3molnl\u00F6sningar\\crmfunctions\\crmfunctions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{461DB88C-924B-4CAF-AFD5-BFA922C93A8A}|CrmFunctions\\CrmFunctions.csproj|solutionrelative:crmfunctions\\crmfunctions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 290,
+          "SelectedChildIndex": 18,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2037576793:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1337924956:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Labb3Molnl\u00F6sningar.http",
+              "DocumentMoniker": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.http",
+              "RelativeDocumentMoniker": "Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.http",
+              "ToolTip": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.http",
+              "RelativeToolTip": "Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-05-20T18:33:28.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\CrmFunctions\\Program.cs",
+              "RelativeDocumentMoniker": "CrmFunctions\\Program.cs",
+              "ToolTip": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\CrmFunctions\\Program.cs",
+              "RelativeToolTip": "CrmFunctions\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T18:33:18.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Labb3Molnl\u00F6sningar",
+              "DocumentMoniker": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj",
+              "RelativeDocumentMoniker": "Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj",
+              "ToolTip": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj",
+              "RelativeToolTip": "Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-20T18:21:18.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "local.settings.json",
+              "DocumentMoniker": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\CrmFunctions\\local.settings.json",
+              "RelativeDocumentMoniker": "CrmFunctions\\local.settings.json",
+              "ToolTip": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\CrmFunctions\\local.settings.json",
+              "RelativeToolTip": "CrmFunctions\\local.settings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-20T18:16:53.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Labb3Molnl\u00F6sningar\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar\\appsettings.Development.json",
+              "RelativeToolTip": "Labb3Molnl\u00F6sningar\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-20T19:09:33.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Labb3Molnl\u00F6sningar\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Labb3Molnl\u00F6sningar\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-20T19:09:53.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar\\Program.cs",
+              "RelativeDocumentMoniker": "Labb3Molnl\u00F6sningar\\Program.cs",
+              "ToolTip": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar\\Program.cs",
+              "RelativeToolTip": "Labb3Molnl\u00F6sningar\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T12:41:08.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CrmFunctions",
+              "DocumentMoniker": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\CrmFunctions\\CrmFunctions.csproj",
+              "RelativeDocumentMoniker": "CrmFunctions\\CrmFunctions.csproj",
+              "ToolTip": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\CrmFunctions\\CrmFunctions.csproj",
+              "RelativeToolTip": "CrmFunctions\\CrmFunctions.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-20T12:42:13.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Function1.cs",
+              "DocumentMoniker": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\CrmFunctions\\Function1.cs",
+              "RelativeDocumentMoniker": "CrmFunctions\\Function1.cs",
+              "ToolTip": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\CrmFunctions\\Function1.cs",
+              "RelativeToolTip": "CrmFunctions\\Function1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T12:38:28.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Labb3Molnl\u00F6sningar.csproj",
+              "DocumentMoniker": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj",
+              "RelativeDocumentMoniker": "Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj",
+              "ToolTip": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj",
+              "RelativeToolTip": "Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-20T12:19:38.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\CrmFunctions\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "CrmFunctions\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\CrmFunctions\\Models\\Customer.cs",
+              "RelativeToolTip": "CrmFunctions\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T18:15:18.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CosmosDbService.cs",
+              "DocumentMoniker": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar\\Services\\CosmosDbService.cs",
+              "RelativeDocumentMoniker": "Labb3Molnl\u00F6sningar\\Services\\CosmosDbService.cs",
+              "ToolTip": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar\\Services\\CosmosDbService.cs",
+              "RelativeToolTip": "Labb3Molnl\u00F6sningar\\Services\\CosmosDbService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T12:50:32.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Seller.cs",
+              "DocumentMoniker": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar\\Models\\Seller.cs",
+              "RelativeDocumentMoniker": "Labb3Molnl\u00F6sningar\\Models\\Seller.cs",
+              "ToolTip": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar\\Models\\Seller.cs",
+              "RelativeToolTip": "Labb3Molnl\u00F6sningar\\Models\\Seller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T12:45:43.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Labb3Molnl\u00F6sningar\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar\\Models\\Customer.cs",
+              "RelativeToolTip": "Labb3Molnl\u00F6sningar\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T12:46:09.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar\\appsettings.json",
+              "RelativeDocumentMoniker": "Labb3Molnl\u00F6sningar\\appsettings.json",
+              "ToolTip": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\Labb3Molnl\u00F6sningar\\appsettings.json",
+              "RelativeToolTip": "Labb3Molnl\u00F6sningar\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-20T12:49:35.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CrmFunctions.csproj",
+              "DocumentMoniker": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\CrmFunctions\\CrmFunctions.csproj",
+              "RelativeDocumentMoniker": "CrmFunctions\\CrmFunctions.csproj",
+              "ToolTip": "C:\\Users\\pontu\\source\\repos\\Labb3Molnl\u00F6sningar\\CrmFunctions\\CrmFunctions.csproj",
+              "RelativeToolTip": "CrmFunctions\\CrmFunctions.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-20T12:44:41.955Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 110,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
