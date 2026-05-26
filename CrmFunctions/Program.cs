@@ -1,3 +1,11 @@
+// =========================
+// CrmFunctions - Program.cs
+
+// Startpunkt för Azure Functions-projektet.
+// Konfigurerar host och dependency injection för funktionerna.
+
+
+
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Builder;
 using Microsoft.Extensions.DependencyInjection;

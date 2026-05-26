@@ -1,4 +1,21 @@
-﻿using Labb3Molnlösningar.Models;
+﻿
+// ICustomerRepository - Interface för kundrepository
+
+// Definierar kontraktet för vad ett kundrepository måste kunna göra.
+// Genom att använda ett interface istället för en konkret klass
+// uppnår vi löskoppling - övriga lager vet bara om interfacet,
+// inte om den specifika implementationen.
+
+// Fördelar:
+// - Enkelt att byta databas (bara skapa ny implementation)
+// - Lättare att testa (kan mocka interfacet)
+// - Tydligt kontrakt för vad repositoryt erbjuder
+
+
+
+
+
+using Labb3Molnlösningar.Models;
 
 namespace Labb3Molnlösningar.Interface
 {

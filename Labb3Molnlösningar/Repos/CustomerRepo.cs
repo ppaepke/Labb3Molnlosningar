@@ -1,4 +1,18 @@
-﻿using Labb3Molnlösningar.Interface;
+﻿// CustomerRepository - Repository-lagret för kunder
+
+// Detta lager sköter all kommunikation med Cosmos DB för kunder.
+// Använder Native Provider-mönstret, dvs CosmosClient direkt
+// utan Entity Framework.
+//
+// Native Provider-flöde:
+// CosmosClient → Database → Container → CRUD-operationer
+//
+// Genom att implementera ICustomerRepository kan vi enkelt
+// byta databas i framtiden utan att ändra övriga lager.
+
+
+
+using Labb3Molnlösningar.Interface;
 using Labb3Molnlösningar.Models;
 using Microsoft.Azure.Cosmos;
 using Container = Microsoft.Azure.Cosmos.Container;
@@ -9,8 +23,24 @@ public class CustomerRepository : ICustomerRepository
 {
     private readonly Container _container;
 
-    public CustomerRepository(CosmosClient client)
+    public CustomerRepository(IConfiguration configuration)
     {
+        var client = new CosmosClient(
+            "AccountEndpoint=https://localhost:8081/;AccountKey=C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==",
+            new CosmosClientOptions
+            {
+                HttpClientFactory = () => new HttpClient(new HttpClientHandler
+                {
+                    ServerCertificateCustomValidationCallback =
+                        HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
+                }),
+                ConnectionMode = ConnectionMode.Gateway,
+                SerializerOptions = new CosmosSerializationOptions
+                {
+                    PropertyNamingPolicy = CosmosPropertyNamingPolicy.CamelCase
+                }
+            });
+
         _container = client.GetDatabase("CrmDatabase").GetContainer("Customers");
     }
 

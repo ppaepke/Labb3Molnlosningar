@@ -1,4 +1,12 @@
-﻿using Labb3Molnlösningar.Models;
+﻿// ISellerRepository - Interface för säljarrepository
+
+// Definierar kontraktet för vad ett säljarrepository måste kunna göra.
+
+// Säljare har färre operationer än kunder då de främst används
+// som inbäddade objekt i kunddokumenten.
+
+
+using Labb3Molnlösningar.Models;
 
 namespace Labb3Molnlösningar.Interface
 {

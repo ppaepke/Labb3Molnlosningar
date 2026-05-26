@@ -1,3 +1,18 @@
+// ============================================================
+// CrmFunctions - Azure Function med Cosmos DB Trigger
+// ============================================================
+// Detta projekt utgör trigger-lagret i systemet.
+// 
+// Flöde:
+// 1. Ett dokument skapas/uppdateras i Cosmos DB (Customers-containern)
+// 2. Cosmos DB Change Feed fångar upp ändringen
+// 3. Denna Azure Function triggas automatiskt
+// 4. Funktionen skickar ett email till ansvarig säljare via Mailtrap (SMTP)
+//
+// Lease-containern håller koll på var i Change Feed vi senast läste,
+// så vi inte missar eller dubbelbehandlar ändringar.
+// ============================================================
+
 using CrmFunctions.Models;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Extensions.Logging;
@@ -10,6 +25,7 @@ public class CustomerTrigger
 {
     private readonly ILogger _logger;
 
+    // Mailtrap SMTP-inställningar för lokal emailtestning
     private const string MailtrapHost = "sandbox.smtp.mailtrap.io";
     private const int MailtrapPort = 2525;
     private const string MailtrapUsername = "0283695c6e1497";
@@ -20,6 +36,8 @@ public class CustomerTrigger
         _logger = loggerFactory.CreateLogger<CustomerTrigger>();
     }
 
+    // Triggas automatiskt när ett dokument läggs till eller uppdateras
+    // i Customers-containern i CrmDatabase
     [Function("CustomerTrigger")]
     public async Task Run([CosmosDBTrigger(
         databaseName: "CrmDatabase",
@@ -45,6 +63,7 @@ public class CustomerTrigger
         }
     }
 
+    // Skickar email till ansvarig säljare med kundens uppgifter
     private async Task SendEmailAsync(Customer customer)
     {
         var subject = $"Du är ansvarig för kunden: {customer.Name}";

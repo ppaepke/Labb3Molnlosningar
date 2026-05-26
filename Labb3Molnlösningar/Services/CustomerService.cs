@@ -1,4 +1,17 @@
-﻿using Labb3Molnlösningar.Interface;
+﻿// CustomerService - Service-lagret för kunder
+
+// Innehåller affärslogiken för kundhantering.
+// Servicen är mellanlagret mellan endpoints och repository,
+// och ser till att affärsregler följs innan data sparas.
+//
+// Affärsregler:
+// - En kund måste alltid ha en ansvarig säljare med namn och email
+//
+// Flöde:
+// Endpoint → CustomerService → ICustomerRepository → Cosmos DB
+
+
+using Labb3Molnlösningar.Interface;
 using Labb3Molnlösningar.Models;
 
 namespace Labb3Molnlösningar.Services;
