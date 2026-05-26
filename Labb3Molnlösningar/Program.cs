@@ -1,65 +1,38 @@
-using Labb3Molnlösningar.Models;
+using Labb3Molnlösningar.Endpoints;
+using Labb3Molnlösningar.Interface;
+using Labb3Molnlösningar.Repositories;
 using Labb3Molnlösningar.Services;
+using Microsoft.Azure.Cosmos;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddSingleton<CosmosDbService>();
+// Cosmos DB klient
+var cosmosClient = new CosmosClient(
+    "AccountEndpoint=https://localhost:8081/;AccountKey=C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==",
+    new CosmosClientOptions
+    {
+        HttpClientFactory = () => new HttpClient(new HttpClientHandler
+        {
+            ServerCertificateCustomValidationCallback =
+                HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
+        }),
+        ConnectionMode = ConnectionMode.Gateway,
+        SerializerOptions = new CosmosSerializationOptions
+        {
+            PropertyNamingPolicy = CosmosPropertyNamingPolicy.CamelCase
+        }
+    });
+
+builder.Services.AddSingleton(cosmosClient);
+builder.Services.AddSingleton<ICustomerRepository, CustomerRepository>();
+builder.Services.AddSingleton<ISellerRepository, SellerRepository>();
+builder.Services.AddSingleton<CustomerService>();
 
 var app = builder.Build();
 
 app.UseHttpsRedirection();
 
-// ── CUSTOMERS ──────────────────────────────────────────────
-
-app.MapGet("/customers", async (CosmosDbService db) =>
-    Results.Ok(await db.GetAllCustomersAsync()));
-
-app.MapGet("/customers/{id}", async (string id, CosmosDbService db) =>
-{
-    var customer = await db.GetCustomerByIdAsync(id);
-    return customer is null ? Results.NotFound() : Results.Ok(customer);
-});
-
-app.MapPost("/customers", async (Customer customer, CosmosDbService db) =>
-{
-    if (string.IsNullOrWhiteSpace(customer.AssignedSeller?.Name) ||
-        string.IsNullOrWhiteSpace(customer.AssignedSeller?.Email))
-    {
-        return Results.BadRequest("En kund måste ha en ansvarig säljare med namn och email.");
-    }
-    var created = await db.CreateCustomerAsync(customer);
-    return Results.Created($"/customers/{created.Id}", created);
-});
-
-app.MapPut("/customers/{id}", async (string id, Customer customer, CosmosDbService db) =>
-{
-    var updated = await db.UpdateCustomerAsync(id, customer);
-    return updated is null ? Results.NotFound() : Results.Ok(updated);
-});
-
-app.MapDelete("/customers/{id}", async (string id, CosmosDbService db) =>
-{
-    await db.DeleteCustomerAsync(id);
-    return Results.NoContent();
-});
-
-// ── SEARCH ─────────────────────────────────────────────────
-
-app.MapGet("/customers/search/name/{name}", async (string name, CosmosDbService db) =>
-    Results.Ok(await db.SearchByCustomerNameAsync(name)));
-
-app.MapGet("/customers/search/seller/{sellerName}", async (string sellerName, CosmosDbService db) =>
-    Results.Ok(await db.SearchBySellerNameAsync(sellerName)));
-
-// ── SELLERS ────────────────────────────────────────────────
-
-app.MapGet("/sellers", async (CosmosDbService db) =>
-    Results.Ok(await db.GetAllSellersAsync()));
-
-app.MapPost("/sellers", async (Seller seller, CosmosDbService db) =>
-{
-    var created = await db.CreateSellerAsync(seller);
-    return Results.Created($"/sellers/{created.Id}", created);
-});
+app.MapCustomerEndpoints();
+app.MapSellerEndpoints();
 
 app.Run();
